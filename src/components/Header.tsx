@@ -12,11 +12,13 @@ const Header = () => {
      <div className="flex justify-between items-center h-20">
       <div className="flex items-center gap-3">
        <HashLink smooth to="/#">
-        <div className="relative">
-         <Shield className="h-8 w-8 text-[#00F5A0]" />
-         <Shield className="h-8 w-8 absolute top-0 left-0 text-[#00F5A0] blur-sm opacity-50" />
+        <div className="flex items-center gap-3">
+         <div className="relative">
+          <Shield className="h-8 w-8 text-[#00F5A0]" />
+          <Shield className="h-8 w-8 absolute top-0 left-0 text-[#00F5A0] blur-sm opacity-50" />
+         </div>
+         <div className="text-2xl font-bold tracking-tight">CClearing</div>
         </div>
-        <span className="text-2xl font-bold tracking-tight">CClearing</span>
        </HashLink>
       </div>
 

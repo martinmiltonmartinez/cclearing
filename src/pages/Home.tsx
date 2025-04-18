@@ -273,7 +273,7 @@ const Home = () => {
      </p>
      <div className="flex flex-col sm:flex-row justify-center gap-4">
       <HashLink
-       to="/book"
+       to="/book/#"
        className="bg-[#00F5A0] text-black px-8 py-4 rounded-lg font-medium hover:bg-[#00F5A0]/90 transition-all inline-flex items-center justify-center gap-2"
       >
        Schedule a Demo
