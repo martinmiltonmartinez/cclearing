@@ -1,6 +1,5 @@
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
-import FormInput from "../components/FormInput";
 
 const Book = () => {
  const [isSubmitting, setIsSubmitting] = useState(false);
@@ -70,35 +69,75 @@ const Book = () => {
       </p>
 
       <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
-       <FormInput
+       <label
+        htmlFor="full_name"
+        className="block mb-2 text-[15px] font-medium text-gray-300"
+       >
+        Full Name
+       </label>
+       <input
+        className="w-full px-4 py-3 rounded-lg
+    bg-[#1A1C26] border border-gray-700
+    focus:outline-none focus:border-gray-600
+    text-white text-base
+    placeholder-gray-500"
         id="full_name"
-        label="Full Name"
+        name="full_name"
         value={formData.full_name}
         onChange={handleChange}
         required
        />
-
-       <FormInput
+       <label
+        htmlFor="business_email"
+        className="block mb-2 text-[15px] font-medium text-gray-300"
+       >
+        Business Email
+       </label>
+       <input
+        className="w-full px-4 py-3 rounded-lg
+    bg-[#1A1C26] border border-gray-700
+    focus:outline-none focus:border-gray-600
+    text-white text-base
+    placeholder-gray-500"
         id="business_email"
-        label="Business Email"
         type="email"
+        name="business_email"
         value={formData.business_email}
         onChange={handleChange}
         required
        />
-
-       <FormInput
+       <label
+        htmlFor="company_name"
+        className="block mb-2 text-[15px] font-medium text-gray-300"
+       >
+        Company Name
+       </label>
+       <input
+        className="w-full px-4 py-3 rounded-lg
+    bg-[#1A1C26] border border-gray-700
+    focus:outline-none focus:border-gray-600
+    text-white text-base
+    placeholder-gray-500"
         id="company_name"
-        label="Company Name"
+        name="company_name"
         value={formData.company_name}
         onChange={handleChange}
         required
        />
-
-       <FormInput
+       <label
+        htmlFor="message"
+        className="block mb-2 text-[15px] font-medium text-gray-300"
+       >
+        Message (Optional)
+       </label>
+       <textarea
+        className="w-full px-4 py-3 rounded-lg
+    bg-[#1A1C26] border border-gray-700
+    focus:outline-none focus:border-gray-600
+    text-white text-base
+    placeholder-gray-500"
         id="message"
-        label="Message (Optional)"
-        multiline
+        name="message"
         rows={4}
         value={formData.message}
         onChange={handleChange}
