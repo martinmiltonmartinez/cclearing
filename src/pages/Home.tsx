@@ -9,7 +9,7 @@ import {
 import { HashLink } from "react-router-hash-link";
 
 const stats = [
- { value: "$10B+", label: "Monthly Volume" },
+ { value: "$50M+", label: "Monthly Volume" },
  { value: "99.99%", label: "Uptime SLA" },
  { value: "150ms", label: "Avg. Response Time" },
  { value: "200+", label: "Global Partners" },
