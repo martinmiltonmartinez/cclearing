@@ -279,9 +279,6 @@ const Home = () => {
        Schedule a Demo
        <ChevronRight className="h-5 w-5" />
       </HashLink>
-      {/* <button className="border border-[#00F5A0]/30 bg-[#00F5A0]/5 backdrop-blur-xl text-[#00F5A0] px-8 py-4 rounded-lg font-medium hover:bg-[#00F5A0]/10 transition-all">
-       Contact Sales
-      </button> */}
      </div>
     </div>
    </section>
