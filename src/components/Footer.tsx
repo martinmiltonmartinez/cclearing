@@ -29,7 +29,7 @@ const Footer = () => {
   {
    title: "Contact",
    links: [
-    { name: "Email", value: "operations@cclearing.com" },
+    { name: "Email", value: "business@cclearing.com" },
     {
      name: "Address",
      value:

@@ -85,7 +85,7 @@ const PolicyContent: React.FC = () => {
          contact us at:
         </p>
         <p>
-         Email: <span className="text-emerald-400">privacy@cclearing.com</span>
+         Email: <span className="text-emerald-400">business@cclearing.com</span>
         </p>
        </div>
       }

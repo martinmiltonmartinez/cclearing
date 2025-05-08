@@ -95,7 +95,7 @@ const TermsContent: React.FC = () => {
          For questions or concerns regarding these terms, please contact us at:
         </p>
         <p>
-         Email: <span className="text-emerald-400">legal@cclearing.com</span>
+         Email: <span className="text-emerald-400">business@cclearing.com</span>
         </p>
        </div>
       }
