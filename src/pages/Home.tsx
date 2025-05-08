@@ -103,7 +103,7 @@ const Home = () => {
      <div className="max-w-4xl">
       <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8">
        Next-Gen Payment Infrastructure for
-       <span className="gradient-text block mt-2">Digital Gaming</span>
+       <span className="gradient-text block mt-2">iGaming</span>
       </h1>
       <p className="text-xl text-gray-400 mb-12 max-w-2xl">
        Powering seamless transactions for the world's most ambitious gaming
@@ -148,7 +148,7 @@ const Home = () => {
       </h2>
       <p className="text-gray-400 max-w-2xl mx-auto">
        Built for scale, designed for reliability, and optimized for the unique
-       needs of digital gaming platforms.
+       needs of iGaming platforms.
       </p>
      </div>
      <div className="grid md:grid-cols-3 gap-8">
