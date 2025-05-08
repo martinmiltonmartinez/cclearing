@@ -30,7 +30,11 @@ const Footer = () => {
    title: "Contact",
    links: [
     { name: "Email", value: "operations@cclearing.com" },
-    { name: "Address", value: "UNIT 805 LEVEL 8 220 COLLINS STREET, MELBOURNE, VIC, 3000, AUSTRALIA" },
+    {
+     name: "Address",
+     value:
+      "UNIT 805 LEVEL 8 220 COLLINS STREET, MELBOURNE, VIC, 3000, AUSTRALIA",
+    },
     { name: "Availability", value: "24/7 Support Available" },
    ],
   },

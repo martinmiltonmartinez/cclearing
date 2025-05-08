@@ -54,13 +54,16 @@ const Header = () => {
          Contact
         </HashLink>
        </div>
-       <HashLink
+       {/* <HashLink
         smooth
         to="/book/#"
         className="bg-[#00F5A0] text-black px-6 py-2.5 rounded-lg font-medium hover:bg-[#00F5A0]/90 transition-all"
        >
         Start Integration
-       </HashLink>
+       </HashLink> */}
+       <button className="bg-[#00F5A0] text-black px-6 py-2.5 rounded-lg font-medium hover:bg-[#00F5A0]/90 transition-all">
+        Start Integration
+       </button>
       </nav>
 
       {/* Mobile Menu Button */}
