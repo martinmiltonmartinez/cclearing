@@ -5,15 +5,34 @@ const Footer = () => {
  const footerLinks = [
   {
    title: "Product",
-   links: ["Features", "Security", "Enterprise", "Pricing"],
+   links: [
+    {
+     name: "Solutions",
+     value: "solutions",
+    },
+    { name: "Features", value: "features" },
+    { name: "Security", value: "security" },
+    { name: "Support", value: "support" },
+   ],
   },
   {
    title: "Company",
-   links: ["About", "Careers", "Partners", "Blog"],
+   links: [
+    {
+     name: "Terms & Conditions",
+     value: "terms",
+    },
+    { name: "Privacy Policy", value: "privacy" },
+    { name: "AML/KYC", value: "aml" },
+   ],
   },
   {
-   title: "Resources",
-   links: ["Documentation", "API Reference", "Status", "Support"],
+   title: "Contact",
+   links: [
+    { name: "Email", value: "operations@cclearing.com" },
+    { name: "Address", value: "123 Elm Street, Apt 45B, New York, NY 10001" },
+    { name: "Availability", value: "24/7 Support Available" },
+   ],
   },
  ];
  return (
@@ -36,13 +55,21 @@ const Footer = () => {
         <ul className="space-y-4">
          {section.links.map((link, linkIndex) => (
           <li key={linkIndex}>
-           <HashLink
-            smooth
-            to="#"
-            className="text-gray-400 hover:text-[#00F5A0] transition-colors"
-           >
-            {link}
-           </HashLink>
+           {section.title !== "Contact" ? (
+            <HashLink
+             smooth
+             to={`${
+              section.title === "Company"
+               ? `/${link.value}/#`
+               : `/#${link.value}`
+             }`}
+             className="text-gray-400 hover:text-[#00F5A0] transition-colors"
+            >
+             {link.name}
+            </HashLink>
+           ) : (
+            <span className="text-gray-400">{link.value}</span>
+           )}
           </li>
          ))}
         </ul>

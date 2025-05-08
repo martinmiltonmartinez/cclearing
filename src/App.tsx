@@ -3,6 +3,9 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Book from "./pages/Book";
+import PolicyContent from "./pages/PrivacyPolicy/PolicyContent";
+import TermsContent from "./pages/TermsConditions/TermsContent";
+import AmlKycContent from "./pages/AmlKyc/AmlKycContent";
 
 function App() {
  return (
@@ -11,6 +14,9 @@ function App() {
    <Routes>
     <Route path="/" element={<Home />} />
     <Route path="/book" element={<Book />} />
+    <Route path="/privacy" element={<PolicyContent />} />
+    <Route path="/terms" element={<TermsContent />} />
+    <Route path="/aml" element={<AmlKycContent />} />
    </Routes>
    <Footer />
   </div>

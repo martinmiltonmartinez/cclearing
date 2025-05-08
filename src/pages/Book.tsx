@@ -57,7 +57,7 @@ const Book = () => {
 
  return (
   <>
-   <div className="pt-24 pb-16 bg-[#0A0B14] px-4 py-12">
+   <div className="pt-32 pb-16 bg-[#0A0B14] px-4 py-12">
     <div className="w-full max-w-2xl mx-auto">
      <div className="bg-[#0F1118] rounded-2xl shadow-xl p-8 max-w-xl mx-auto border border-gray-800">
       <h2 className="text-[28px] font-semibold text-white mb-3">

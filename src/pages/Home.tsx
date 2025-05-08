@@ -78,9 +78,9 @@ const securityFeatures = [
    "https://images.unsplash.com/photo-1562813733-b31f71025d54?q=80&w=2670",
  },
  {
-  title: "AML Compliance",
+  title: "KYC & AML Compliance",
   description:
-   "Automated transaction monitoring and reporting for AML compliance.",
+   "Automated transaction monitoring and reporting for KYC & AML compliance.",
   image:
    "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2670",
  },
