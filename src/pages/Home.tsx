@@ -103,7 +103,7 @@ const Home = () => {
      <div className="max-w-4xl">
       <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8">
        Next-Gen Payment Infrastructure for
-       <span className="gradient-text block mt-2">Businesses</span>
+       <span className="gradient-text block mt-2">Online Businesses</span>
       </h1>
       <p className="text-xl text-gray-400 mb-12 max-w-2xl">
        Powering seamless transactions for the world's most ambitious
