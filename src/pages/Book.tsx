@@ -65,7 +65,7 @@ const Book = () => {
       </h2>
       <p className="text-gray-400 mb-8">
        Book a personalized session with our payment specialists to discover how
-       CClearing can transform your online casino's payment infrastructure.
+       CClearing can transform your online business payment infrastructure.
       </p>
 
       <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
