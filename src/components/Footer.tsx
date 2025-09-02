@@ -50,7 +50,7 @@ const Footer = () => {
         <span className="text-2xl font-bold">CClearing</span>
        </div>
        <p className="text-gray-400">
-        Next-generation payment infrastructure for the iGaming industry.
+        Next-generation payment infrastructure for any industry.
        </p>
       </div>
       {footerLinks.map((section, index) => (
