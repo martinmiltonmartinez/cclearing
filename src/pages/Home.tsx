@@ -59,7 +59,7 @@ const features = [
   icon: <Globe className="h-12 w-12 text-[#00F5A0]" />,
   title: "Global Compliance",
   description:
-   "Built-in compliance with gaming regulations across major jurisdictions.",
+   "Built-in compliance across major jurisdictions.",
  },
 ];
 
@@ -103,10 +103,10 @@ const Home = () => {
      <div className="max-w-4xl">
       <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8">
        Next-Gen Payment Infrastructure for
-       <span className="gradient-text block mt-2">iGaming</span>
+       <span className="gradient-text block mt-2">Businesses</span>
       </h1>
       <p className="text-xl text-gray-400 mb-12 max-w-2xl">
-       Powering seamless transactions for the world's most ambitious gaming
+       Powering seamless transactions for the world's most ambitious
        platforms with our AI-driven payment infrastructure.
       </p>
       <div className="flex flex-col sm:flex-row gap-4">
@@ -147,8 +147,7 @@ const Home = () => {
        Enterprise-Grade Payment Solutions
       </h2>
       <p className="text-gray-400 max-w-2xl mx-auto">
-       Built for scale, designed for reliability, and optimized for the unique
-       needs of iGaming platforms.
+       Built for scale, designed for reliability, and optimized.
       </p>
      </div>
      <div className="grid md:grid-cols-3 gap-8">
@@ -268,7 +267,7 @@ const Home = () => {
       Ready to Transform Your Payment Infrastructure?
      </h2>
      <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
-      Join the leading gaming platforms already using CClearing to process
+      Join the leading platforms already using CClearing to process
       millions in transactions daily.
      </p>
      <div className="flex flex-col sm:flex-row justify-center gap-4">
