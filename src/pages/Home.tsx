@@ -267,7 +267,7 @@ const Home = () => {
       Ready to Transform Your Payment Infrastructure?
      </h2>
      <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
-      Join the leading platforms already using CClearing to process
+      Join the leading payment platforms already using CClearing to process
       millions in transactions daily.
      </p>
      <div className="flex flex-col sm:flex-row justify-center gap-4">
