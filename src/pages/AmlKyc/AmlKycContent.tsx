@@ -22,7 +22,7 @@ const AmlKycContent: React.FC = () => {
      <p className="text-slate-300 text-lg max-w-2xl mx-auto leading-relaxed">
       This framework establishes the protocols that CClearing adopts to identify,
       assess, and mitigate risks associated with money laundering, terrorist
-      financing, and other illicit financial crimes.
+      financing, and other illicit financial crime.
      </p>
     </div>
 
