@@ -20,7 +20,7 @@ const AmlKycContent: React.FC = () => {
       AML and KYC Framework
      </h1>
      <p className="text-slate-300 text-lg max-w-2xl mx-auto leading-relaxed">
-      This framework establishes the protocols that Finsino adopts to identify,
+      This framework establishes the protocols that CClearing adopts to identify,
       assess, and mitigate risks associated with money laundering, terrorist
       financing, and other illicit financial crimes.
      </p>
@@ -52,7 +52,7 @@ const AmlKycContent: React.FC = () => {
       icon={<Users className="w-6 h-6 text-emerald-400" />}
       content={
        <p>
-        This document applies to every individual and entity using Finsino's
+        This document applies to every individual and entity using CClearing's
         services, including all staff, third-party agents, contractors, and
         affiliates involved in customer onboarding, transaction oversight, and
         compliance functions.
