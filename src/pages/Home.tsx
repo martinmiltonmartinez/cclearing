@@ -106,6 +106,7 @@ const Home = () => {
        <span className="gradient-text block mt-2">Online Businesses</span>
       </h1>
       <p className="text-xl text-gray-400 mb-12 max-w-2xl">
+       Cross-Border B2B Remittance for eCommerce.
        Powering seamless transactions for the world's most ambitious
        platforms with our AI-driven payment infrastructure.
       </p>
