@@ -33,7 +33,7 @@ const Footer = () => {
     {
      name: "Address",
      value:
-      "UNIT 805 LEVEL 8 220 COLLINS STREET, MELBOURNE, VIC, 3000, AUSTRALIA",
+      "Unit 215, 2950 JUTLAND RD,VICTORIA,British Columbia,Canada,V8T 5K2",
     },
     { name: "Availability", value: "24/7 Support Available" },
    ],
