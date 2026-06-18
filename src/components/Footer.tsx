@@ -30,6 +30,7 @@ const Footer = () => {
    title: "Contact",
    links: [
     { name: "Email", value: "business@cclearing.com" },
+    { name: "Addresss", value: "Unit 215, 2950 JUTLAND RD, VICTORIA, British Columbia, Canada, V8T 5K2" },
     { name: "Availability", value: "24/7 Support Available" },
    ],
   },
